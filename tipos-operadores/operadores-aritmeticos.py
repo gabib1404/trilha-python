@@ -12,3 +12,11 @@ print(produto_1 % 3) # 1
 print(produto_2 ** 2) # 400
 
 # Precedência de operadores
+x = 10 - 5 * 4
+print(x) # -10
+
+x = (10 - 5) * 4
+print(x) # 20
+
+y = 10 / 2 * 25 * 2 - 100 ** 2
+print(y)
